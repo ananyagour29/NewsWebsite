@@ -1,16 +1,26 @@
-<<<<<<< HEAD
-# React + Vite
+# 📰 Trendy News App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and dynamic news website built using **React.js** and **GNews API**.  
+It lets users search for news and explore categories like Sports, Politics, Fitness, and Health — all in real time!
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 Features
 
-## Expanding the ESLint configuration
+- 🔎 Search news by keyword
+- 📚 Browse categories with one click
+- 🖼️ Shows only news with images
+- 🌐 Powered by [GNews.io](https://gnews.io/) API
+- ⚡ Fast and fully responsive design
+- 🚀 Deployable to Netlify / GitHub Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# NewsWebsite
->>>>>>> 28644ad3ae85f7ef8e2c9a722a892b402a9db430
+---
+
+## 🛠 Tech Stack
+
+- **React.js**
+- **Vite** (for build)
+- **CSS** (custom styling)
+- **GNews API** (for fetching live news)
+
+---

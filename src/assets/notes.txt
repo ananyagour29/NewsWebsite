@@ -1,0 +1,40 @@
+1 AWAIT PROMISE STATES
+/ await waits for the result of the fetch() call.
+
+// Then await response.json() waits for the body to convert to actual data.
+
+// Promise {<pending>}
+// [[PromiseState]]: "fulfilled"
+// [[PromiseResult]]: Object
+ // explain this
+ 
+ Initially, the Promise was waiting for the result (still running).	
+ The Promise has now completed successfully.
+ The Promise returned an object as the result (like API data).
+
+await waits until the Promise is complete.
+
+2
+  const response=await fetch(`https://newsapi.org/v2/everything?q=${search}&apiKey=${API_KEY}`)
+  why SEARCH in this
+  You are sending a dynamic search term to the News API.
+   What is q=${search}?
+q= is a query parameter for the News API.
+
+It stands for: "query" — the topic you want news about.
+
+So, if search = "india", the API call becomes:
+Why we use search here:
+Because it lets you search for any topic dynamically, like:
+
+search = "technology"
+
+search = "sports"
+3
+ const handleInput=(e)=>
+ setSearch(e.target.value):
+It updates your React state search with the new value typed by the user.
+
+This lets your app track what the user is searching.
+It’s a function that runs whenever the user types in an input field.
+// ALWAYS DO CONSOLE EVERYTHING TO check api is working correct or not
